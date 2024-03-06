@@ -1,0 +1,147 @@
+{
+  "id": "aaa61886-bb19-4efe-b1ab-c456f55ed970",
+  "version": "2.0",
+  "name": "PDF Download Test",
+  "url": "https://www.rbi.org.in",
+  "tests": [{
+    "id": "242cf5e0-613a-4195-8dc8-a5450eede382",
+    "name": "pdf-download-test",
+    "commands": [{
+      "id": "a911533e-a98a-485c-ab32-a0190773527a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c98dc134-f94f-4148-9d5d-7a57f539cddc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "988x582",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ed5583a-2105-4570-8097-70959398fbc6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation",
+      "targets": [
+        ["linkText=RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation", "linkText"],
+        ["css=#lblNew li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation')]", "xpath:link"],
+        ["xpath=//ul[@id='Recent']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57445')]", "xpath:href"],
+        ["xpath=//span/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3314",
+      "windowTimeout": 2000
+    }, {
+      "id": "ee75c869-1e00-41c0-aefa-4a1d6716c880",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3314}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0343ea8-4825-46aa-af75-e1a9b0048645",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tableheader img",
+      "targets": [
+        ["css=.tableheader img", "css:finder"],
+        ["xpath=//img[@alt='PDF document']", "xpath:img"],
+        ["xpath=//div[@id='doublescroll']/table[2]/tbody/tr/td/a/img", "xpath:idRelative"],
+        ["xpath=//td/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2548",
+      "windowTimeout": 2000
+    }, {
+      "id": "1218599d-2a0e-47d7-abb9-baf1fea39b1c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2548}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b749c29f-bfbe-48ec-abdc-8cdeda36a488",
+    "name": "new",
+    "commands": [{
+      "id": "8e28a615-ac5a-45f5-bb7e-679adc51def1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "158432bf-696f-463d-8f1a-c51b494c983f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "988x582",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce2a99bd-8059-4b4f-9e20-b0966ec7b170",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation",
+      "targets": [
+        ["linkText=RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation", "linkText"],
+        ["css=#lblNew li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation')]", "xpath:link"],
+        ["xpath=//ul[@id='Recent']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57445')]", "xpath:href"],
+        ["xpath=//span/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RBI approves Fincare Small Finance Bank Ltd. – AU Small Finance Bank Ltd. Amalgamation')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1827",
+      "windowTimeout": 2000
+    }, {
+      "id": "555bcdbc-4f79-4c8f-9cc1-7d3b5ed6233f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1827}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "135a57cc-aed4-406f-ba99-587fb292f518",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tableheader img",
+      "targets": [
+        ["css=.tableheader img", "css:finder"],
+        ["xpath=//img[@alt='PDF document']", "xpath:img"],
+        ["xpath=//div[@id='doublescroll']/table[2]/tbody/tr/td/a/img", "xpath:idRelative"],
+        ["xpath=//td/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2313",
+      "windowTimeout": 2000
+    }, {
+      "id": "a92b701b-eef3-4578-a4d5-e3a9ab280cec",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2313}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f34b4f70-3180-4acf-a5a6-09b3db96c047",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["242cf5e0-613a-4195-8dc8-a5450eede382"]
+  }],
+  "urls": ["https://www.rbi.org.in/"],
+  "plugins": []
+}
